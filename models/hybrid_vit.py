@@ -1,5 +1,3 @@
-%%writefile models/hybrid_vit.py
-
 import torch
 import torch.nn as nn
 from torchvision.models.vision_transformer import vit_b_16, ViT_B_16_Weights
