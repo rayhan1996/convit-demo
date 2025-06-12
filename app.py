@@ -15,7 +15,8 @@ import numpy as np, rasterio, cv2
 # Basic config
 # ────────────────────────────────────
 CKPT_NAME: str = "hybrid_ckpt.pt"
-CKPT_URL:  str = "https://drive.google.com/file/d/1TXuByjQxxx2gaHMWIHd3LHmjgka8um3M/view?usp=drive_link"
+CKPT_URL = "https://drive.google.com/uc?id=1TXuByjQxxx2gaHMWIHd3LHmjgka8um3M&confirm=t"
+
 LABELS    = ["cloud", "shadow", "land_cover"]        # ⇐ adapt to your classes
 DEVICE    = "cuda" if torch.cuda.is_available() else "cpu"
 
