@@ -1,10 +1,10 @@
 streamlit==1.35.0
-torch==2.2.2
-torchvision==0.17.2
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 rasterio==1.3.9
 opencv-python
 matplotlib
 numpy==1.26.4
 protobuf>=5.29.1,<6
 gdown
-
